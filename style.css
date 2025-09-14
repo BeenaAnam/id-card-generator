@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f9fafc;
+  background: url(./img4.jpeg) no-repeat center/cover;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container box */
+.container {
+  background: #ffffff;
+  background: url(./img2.jpeg) center/cover;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  /* text-align: center; */
+}
+
+/* Form inputs */
+form input[type="text"],
+form input[type="email"],
+form input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+form input:focus {
+  border: 1px solid #52bef0; /* purple */
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #52bef0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #4089aa;
+}
+
+/* ID Card container */
+#data {
+  margin-top: 20px;
+  background: #ffffff;
+  background: url(./img3.jpeg) center/cover;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Arial", sans-serif;
+}
+
+/* Profile image */
+#data img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 2px solid #2d8cb8;
+  object-fit: cover;
+}
+
+/* Info text */
+.info {
+  color: #3c9fcc;
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>ID Card Generator</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <h2>🎫 ID Card Generator</h2>
+      <form id="form">
+        <input type="text" id="name" placeholder="Enter your name" />
+        <input type="text" id="Fname" placeholder="Enter your father name" />
+        <input type="text" id="edu" placeholder="Enter your education" />
+        <input type="text" id="course" placeholder="Enter your ourse name" />
+        <input type="email" id="email" placeholder="Enter your email address" />
+        <input type="file" id="image" />
+        <button type="button" onclick="generate()">Generate ID Card</button>
+      </form>
+      <div id="data"></div>
+    </div>
+   <script src="./app.js"></script>
+  
+  </body>
+</html>
